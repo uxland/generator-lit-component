@@ -1,0 +1,37 @@
+{
+  "name": "@uxland/generator-lit-component",
+  "version": "0.0.0-development",
+  "description": "A lit component generator for uxland projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxland/generator-lit-component.git"
+  },
+  "author": {
+    "name": "UXLand",
+    "email": "dev@uxland.es",
+    "url": "https://www.uxland.es/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxland/generator-lit-component/issues"
+  },
+  "homepage": "https://github.com/uxland/generator-lit-component#readme",
+  "devDependencies": {
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^2.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "yeoman-generator": "^4.1.0",
+    "yosay": "^2.0.2"
+  }
+}
