@@ -2,6 +2,7 @@
   "name": "@uxland/generator-lit-component",
   "version": "0.0.0-development",
   "description": "A lit component generator for uxland projects",
+  "main": "generators/index.js",
   "scripts": {
     "deps:delete": "rimraf node_modules package-lock.json",
     "deps:install": "npm install",
@@ -13,15 +14,14 @@
     "test": "npm run test:unit",
     "test:unit": "jest --collect-coverage"
   },
-  "main": "generators/index.js",
-  "keywords": [
-    "yeoman-generator",
-    "lit-element"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uxland/generator-lit-component.git"
   },
+  "keywords": [
+    "yeoman-generator",
+    "lit-element"
+  ],
   "author": {
     "name": "UXLand",
     "email": "dev@uxland.es",
@@ -50,8 +50,5 @@
     "hooks": {
       "pre-commit": "npm run test:unit && npm run readme:coverage && git add ."
     }
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
