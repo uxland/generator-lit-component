@@ -1,4 +1,4 @@
-# Lit Component Genrator [![npm version](https://badge.fury.io/js/%40uxland%2Fgenerator-lit-component.svg)](https://badge.fury.io/js/%40uxland%2Fgenerator-lit-component)
+# Lit Component Generator [![npm version](https://badge.fury.io/js/%40uxland%2Fgenerator-lit-component.svg)](https://badge.fury.io/js/%40uxland%2Fgenerator-lit-component)
 
 | Build Status                                                                                                                          | Statements                                    | Branches                                  | Functions                                   | Lines                               |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------- |
