@@ -2,7 +2,7 @@
 
 | Build Status                                                                                                                          | Statements                                    | Branches                                  | Functions                                   | Lines                               |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------- |
-| [![Build Status](https://api.travis-ci.org/uxland/generator-lit-element.svg)](https://api.travis-ci.org/uxland/generator-lit-element) | ![Statements](https://img.shields.io/badge/Coverage-Unknown%25-brightgreen.svg 'Make me better!') | ![Branches](https://img.shields.io/badge/Coverage-Unknown%25-brightgreen.svg 'Make me better!') | ![Functions](https://img.shields.io/badge/Coverage-Unknown%25-brightgreen.svg 'Make me better!') | ![Lines](https://img.shields.io/badge/Coverage-Unknown%25-brightgreen.svg 'Make me better!') |
+| [![Build Status](https://api.travis-ci.org/uxland/generator-lit-element.svg)](https://api.travis-ci.org/uxland/generator-lit-element) | ![Statements](#statements# 'Make me better!') | ![Branches](#branches# 'Make me better!') | ![Functions](#functions# 'Make me better!') | ![Lines](#lines# 'Make me better!') |
 
 Create Lit Components on the fly
 
