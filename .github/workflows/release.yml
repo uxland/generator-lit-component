@@ -24,7 +24,9 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Deploy
-        run: npm run semantic-release -- --dry-run --debug
+        run: |
+          echo ${GITHUB_REF}
+          npm run semantic-release -- --dry-run --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
