@@ -8,7 +8,7 @@ Create a Typescript Lit Components in the current directory
 
 ## Prerequisites
 
-Installing Uxland generator lit element previously requires the global installation of Yeoman. Yeoman needs to be installed globally. To install yeoman globally you can use the following command:
+Installing Uxland generator lit element previously requires the installation of Yeoman. Yeoman needs to be installed globally. You can doit with the following command:
 
 `npm i yo --global`
 
