@@ -38,7 +38,7 @@ A complete functional typescript lit component with:
 
 ## Usage generator locally in a project
 
-If you need use the generator locally in a project you only need install Yeoman & @uxland/generator-lit-component as a dev dependency and add yo in scripts in your `package.json` as the example: 
+If you need use the generator locally in a project you only need install `Yeoman` & `@uxland/generator-lit-component` as a dev dependency and add `Yeoman` in scripts in your `package.json` as the example: 
 
 ```
 {
