@@ -5,5 +5,5 @@ __tests__/
 jest.config.js
 .releaserc.json
 README-template.md
-
+.github/
     
