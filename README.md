@@ -34,7 +34,6 @@ A complete functional typescript lit component with:
 * my-component-name.ts
 * template.ts
 * styles.scss
-* styles.scss.d.ts
 
 ## Usage generator locally in a project
 

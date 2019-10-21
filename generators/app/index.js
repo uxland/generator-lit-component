@@ -58,9 +58,5 @@ module.exports = class extends Generator {
       this.templatePath("components/my-component/styles.scss"),
       this.destinationPath(this.props.destinationPath + "/" +  this.props.moduleName + "/" + "styles.scss")
     );
-    this.fs.copy(
-      this.templatePath("components/my-component/styles.scss.d.ts"),
-      this.destinationPath(this.props.destinationPath + "/" +  this.props.moduleName + "/" + "styles.scss.d.ts")
-    );
   }
 };
