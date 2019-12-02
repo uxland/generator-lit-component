@@ -17,7 +17,7 @@ Installing Uxland generator lit element previously requires the installation of 
 The Uxland generator lit element can be installed globally on your machine or locally in a project.
 To install it you can use the following command.
 
-`npm i @uxland/generator-lit-element`
+`npm i @uxland/generator-lit-component`
 
 ## Usage
 
