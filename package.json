@@ -1,6 +1,6 @@
 {
   "name": "@uxland/generator-lit-component",
-  "version": "0.0.0-development",
+  "version": "1.0.2",
   "description": "A lit component generator for uxland projects",
   "main": "generators/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "deps:install": "npm install",
     "deps:refresh": "npm run deps:delete && npm run deps:install",
     "readme:coverage": "node_modules/.bin/jest-badges-readme",
-    "semantic-release": "semantic-release --no-ci",
+    "semantic-release": "semantic-release",
     "semantic-release:local": "semantic-release --no-ci --debug",
     "postsemantic-release:local": "git checkout -- package*",
     "test": "npm run test:unit",
@@ -37,7 +37,7 @@
     "husky": "^3.0.5",
     "jest": "^24.9.0",
     "rimraf": "^3.0.0",
-    "semantic-release": "^16.0.0-beta.24",
+    "semantic-release": "^16.0.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^2.0.0"
   },
