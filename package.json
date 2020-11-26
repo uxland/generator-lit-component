@@ -8,7 +8,7 @@
     "deps:install": "npm install",
     "deps:refresh": "npm run deps:delete && npm run deps:install",
     "readme:coverage": "node_modules/.bin/jest-badges-readme",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --no-ci",
     "semantic-release:local": "semantic-release --no-ci --debug",
     "postsemantic-release:local": "git checkout -- package*",
     "test": "npm run test:unit",
